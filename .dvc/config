@@ -1,0 +1,7 @@
+[core]
+    remote = jackremote
+['remote "jackremote"']
+    url = s3://test1
+    endpointurl = http://140.113.110.74:9000
+    access_key_id = jack
+    secret_access_key = jack12345
