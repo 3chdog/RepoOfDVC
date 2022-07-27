@@ -1,0 +1,12 @@
+schema: '2.0'
+stages:
+  outcsv:
+    cmd: python outcsv.py
+    deps:
+    - path: outcsv.py
+      md5: d255308908f8d8932f36ad728cb4089d
+      size: 348
+    outs:
+    - path: mydf.csv
+      md5: 3b552f396afd86293f0ac080f4c736bd
+      size: 240

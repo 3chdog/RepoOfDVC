@@ -1,0 +1,7 @@
+stages:
+  outcsv:
+    cmd: python outcsv.py
+    deps:
+    - outcsv.py
+    outs:
+    - mydf.csv
